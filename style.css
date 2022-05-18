@@ -43,6 +43,10 @@ a:hover {
     padding-left: 0;
     padding-right: 0;
 }
+.Nosrealisations{
+display: flex;
+justify-content: space-evenly;
+}
 
 .bloc-lg {
     padding: 100px 50px;
@@ -677,7 +681,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -707,6 +711,8 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 h3 {
