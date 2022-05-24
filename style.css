@@ -42,11 +42,15 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    padding-top: 10px;
 }
 
 .Nosrealisations {
     display: flex;
     justify-content: space-evenly;
+}
+.header-class{
+    
 }
 
 .bloc-lg {
@@ -337,7 +341,6 @@ h2 .bloc-sm {
 .navbar-nav .open .dropdown-menu>li>a {
     text-align: inherit;
 }
-
 .nav>li a:hover,
 .nav>li a:focus {
     background: transparent;
@@ -679,7 +682,9 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
+.form_1{
+    text-align: center;
+}
 p {
     font-size: 15px;
 }
@@ -708,6 +713,7 @@ p {
     margin: auto auto auto auto;
     display: flex;
     justify-content: space-around;
+    margin-top: 10px;
 
 }
 
@@ -758,6 +764,7 @@ h4 {
 
 .white {
     color: #FFFFFF !important;
+    padding-top: 20px;
 }
 
 .portfolio-thumb {
@@ -796,11 +803,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 24px;
 }
 
 .tc-white1 {
-    color: rgb(255, 255, 255) !important
+    color: rgb(255, 255, 255) !important;
 }
 
 .btn-atomic-tangerine {
@@ -849,7 +857,10 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
-
+.col-sm-12{
+    text-align: center;
+    margin-bottom: 16px;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1110,4 +1121,5 @@ h4 {
         margin: auto;
         display: flex;
     }
+
 }
