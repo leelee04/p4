@@ -324,6 +324,7 @@ justify-content: space-evenly;
     margin-right: -16px;
     float: right;
     z-index: 1;
+    list-style: none;
 }
 
 .nav > li {
@@ -341,19 +342,6 @@ justify-content: space-evenly;
     background: transparent;
 }
 
-.navbar-toggle {
-    margin: 10px 10px 0 0;
-    border: 0px;
-}
-
-.navbar-toggle:hover {
-    background: transparent!important;
-}
-
-.navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
-    width: 26px;
-}
 
 .nav-invert .navbar .nav {
     float: left;
