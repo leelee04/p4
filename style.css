@@ -55,7 +55,7 @@ justify-content: space-evenly;
 .bloc-md {
     padding: 50px;
 }
-
+h2
 .bloc-sm {
     padding: 20px 50px;
 }
@@ -95,7 +95,7 @@ justify-content: space-evenly;
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/agence-la-panthere.png");
     background-size: 280px 280px;
 }
 
@@ -436,7 +436,9 @@ nav .caret {
     margin-top: 10px;
     margin-bottom: 40px;
 }
-
+.paragraph{
+    font-size: 18px;
+}
 .btn {
     margin: 0 5px 5px 0;
 }
@@ -780,6 +782,9 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+}
+.tc-white1{
+    color:rgb(255, 255, 255) !important
 }
 
 .btn-atomic-tangerine {
