@@ -49,9 +49,6 @@ a:hover {
     display: flex;
     justify-content: space-evenly;
 }
-.header-class{
-    
-}
 
 .bloc-lg {
     padding: 100px 50px;
@@ -333,7 +330,7 @@ h2 .bloc-sm {
 }
 
 .nav>li {
-    float: left;
+display: flex;
     margin-top: 4px;
     font-size: 16px;
 }
@@ -859,7 +856,7 @@ h4 {
 }
 .col-sm-12{
     text-align: center;
-    margin-bottom: 16px;
+    margin-bottom: 40px;
 }
 @media (max-width: 1024px) {
     .bloc {
