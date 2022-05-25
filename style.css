@@ -447,6 +447,8 @@ nav .caret {
 
 .paragraph {
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
 }
 
 .btn {
@@ -684,6 +686,9 @@ a {
 }
 p {
     font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 .tight-width-whitespace {
@@ -762,6 +767,7 @@ h4 {
 .white {
     color: #FFFFFF !important;
     padding-top: 20px;
+    flex-direction: column;
 }
 
 .portfolio-thumb {
@@ -802,6 +808,7 @@ h4 {
 .tc-white {
     color: rgb(255, 255, 255) !important;
     font-size: 24px;
+    padding-top: 43px;
 }
 
 .tc-white1 {
@@ -856,7 +863,7 @@ h4 {
 }
 .col-sm-12{
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 12px;
 }
 @media (max-width: 1024px) {
     .bloc {
@@ -943,8 +950,9 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px !important;
-        padding-right: 10px !important;
+        margin-top: 10px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
     }
 
     .b-parallax {
