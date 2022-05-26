@@ -97,7 +97,7 @@ h2 .bloc-sm {
 }
 
 .texture-paper::before {
-    background: rgba(0,0,0,.604);
+    background: rgba(0, 0, 0, .604);
 }
 
 .b-parallax {
@@ -330,7 +330,7 @@ h2 .bloc-sm {
 }
 
 .nav>li {
-display: flex;
+    display: flex;
     margin-top: 4px;
     font-size: 16px;
 }
@@ -338,6 +338,7 @@ display: flex;
 .navbar-nav .open .dropdown-menu>li>a {
     text-align: inherit;
 }
+
 .nav>li a:hover,
 .nav>li a:focus {
     background: transparent;
@@ -681,9 +682,11 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-.form_1{
+
+.form_1 {
     text-align: center;
 }
+
 p {
     font-size: 17px;
     display: flex;
@@ -708,7 +711,7 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
-    color: white!important;
+    color: white !important;
     position: relative;
 }
 
@@ -767,12 +770,17 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF !important;
     padding-top: 20px;
     flex-direction: column;
     font-size: 17px;
+    color: white !important;
 }
-
+.black {
+    padding-top: 20px;
+    flex-direction: column;
+    font-size: 17px;
+    color: black !important;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -822,6 +830,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
+    color: #000 !important;
 
 }
 
@@ -866,10 +875,12 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.png");
 }
-.col-sm-12{
+
+.col-sm-12 {
     text-align: center;
     margin-bottom: 12px;
 }
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -951,8 +962,8 @@ h4 {
     p,
     #disqus_thread {
         margin-top: 10px;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
     }
 
     .b-parallax {
