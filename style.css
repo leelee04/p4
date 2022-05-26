@@ -237,6 +237,7 @@ h2 .bloc-sm {
 .l-bloc h6 a,
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
+    font-size: 18px;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -773,7 +774,7 @@ h4 {
     padding-top: 20px;
     flex-direction: column;
     font-size: 17px;
-    color: white !important;
+    color: black !important;
 }
 .black {
     padding-top: 20px;
