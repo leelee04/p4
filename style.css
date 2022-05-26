@@ -42,7 +42,7 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
-    padding-top: 10px;
+    padding-top: 26px;
 }
 
 .Nosrealisations {
@@ -685,7 +685,7 @@ a {
     text-align: center;
 }
 p {
-    font-size: 15px;
+    font-size: 17px;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -809,9 +809,8 @@ h4 {
 }
 
 .tc-white {
-    color: rgb(255, 255, 255) !important;
-    font-size: 24px;
     padding-top: 43px;
+    color: #F3976C !important;
 }
 
 .tc-white1 {
