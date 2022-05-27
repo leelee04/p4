@@ -260,6 +260,7 @@ h2 .bloc-sm {
 
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
+    background-color: black;
 }
 
 .d-bloc .panel .btn-wire,
@@ -880,6 +881,10 @@ h4 {
 .col-sm-12 {
     text-align: center;
     margin-bottom: 12px;
+}
+.fa--alt-text{
+    opacity: 0;
+    margin-left: -82px;
 }
 
 @media (max-width: 1024px) {
