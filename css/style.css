@@ -605,12 +605,12 @@ p {
     position: relative;
 }
 .social {
-    width: 400px;
     margin: auto auto auto auto;
     display: flex;
     margin-top: 10px;
     padding-left: -24px;
     justify-content: space-between;
+    margin-left:30px;
 }
 .partner {
     width: 527px;
@@ -781,7 +781,6 @@ h4 {
     }
     .page-container,
     #hero-bloc {
-        overflow-x: hidden;
         position: relative;
     }
     .bloc-group,
