@@ -608,7 +608,6 @@ p {
     margin: auto auto auto auto;
     display: flex;
     margin-top: 10px;
-    padding-left: -24px;
     justify-content: space-between;
     margin-left:30px;
 }
